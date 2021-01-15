@@ -6,6 +6,7 @@ body #quotes {
   background-image: linear-gradient(#0a292e, #004d5f);
   height: 74vh;
   color: white;
+  max-height: 70%;
 }
 
 body #quotes .container {
