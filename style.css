@@ -1,0 +1,34 @@
+body h2,
+body #navlink {
+  font-family: "Paytone One", sans-serif !important;
+}
+body #quotes {
+  background-image: linear-gradient(#0a292e, #004d5f);
+  height: 74vh;
+  color: white;
+}
+
+body #quotes .container {
+  padding-top: 30vh;
+}
+
+body #navlink {
+  background-color: #004d5f;
+  color: white !important;
+}
+body #navlink a {
+  background-color: #004d5f;
+  color: white !important;
+}
+body #navlink a:hover {
+  background-color: #004d5f;
+  color: gray;
+}
+#grad {
+  background-image: linear-gradient(#004d5f);
+  height: 2vh;
+}
+
+.vektor {
+  width: 200px;
+}
