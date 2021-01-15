@@ -15,6 +15,9 @@ body #quotes .container {
 nav a {
   color: white;
 }
+nav a:hover {
+  color: #d85e5d;
+}
 
 .vektor {
   width: 200px;
