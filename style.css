@@ -12,10 +12,11 @@ body #quotes .container {
   padding-top: 35vh;
 }
 
-nav a {
+#navbar nav a {
   color: white;
+  font-family: "Paytone One", sans-serif !important;
 }
-nav a:hover {
+#navbar nav a:hover {
   color: #d85e5d;
 }
 
