@@ -4,12 +4,12 @@ body #navlink {
 }
 body #quotes {
   background-image: linear-gradient(#0a292e, #004d5f);
-  height: 85vh;
+  height: 76vh;
   color: white;
 }
 
 body #quotes .container {
-  padding-top: 35vh;
+  padding-top: 25vh;
 }
 
 #navbar nav a {
