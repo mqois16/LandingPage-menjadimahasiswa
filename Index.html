@@ -16,18 +16,51 @@
       @import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Sacramento&display=swap");
     </style>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="asset/bg-ijo-lingkaran.png" />
     <title>Menjadi Mahasiwa</title>
   </head>
   <body>
     <!--Navbar-->
     <!-- Just an image -->
-    <nav class="navbar navbar-light" style="background-color: #0a292e">
+    <nav
+      class="navbar navbar-light sticky-top"
+      style="background-color: #0a292e"
+    >
       <div class="container mx-auto">
         <a class="navbar-brand mx-auto" href="#">
           <img src="/asset/logo-long.png" alt="" width="300" height="auto" />
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              style="color: white !important"
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+            <a style="color: white !important" class="nav-link" href="#about"
+              >About Us</a
+            >
+            <a style="color: white !important" class="nav-link" href="#agenda"
+              >Our Agenda</a
+            >
+          </div>
+        </div>
       </div>
     </nav>
+
     <nav class="navbar navbar-light bg-success fixed-bottom">
       <div class="container-fluid justify-content-center">
         <a
@@ -58,13 +91,13 @@
                   <figure class="text-center">
                     <blockquote class="blockquote">
                       <p>
-                        1 Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Integer posuere erat a ante.
+                        menjadi.mahasiswa merupakan wadah penyalur informasi
+                        terkait per-duniawi-an kampus
                       </p>
                     </blockquote>
                     <figcaption class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
+                      Anonim
+                      <cite title="Source Title"></cite>
                     </figcaption>
                   </figure>
                 </div>
@@ -102,26 +135,6 @@
         </div>
       </div>
     </section>
-    <section id="navlink">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">AboutUs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#agenda">Agenda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="d-none d-md-block" id="grad"></div>
-    </section>
     <!--end of quotes-->
 
     <!--about us-->
@@ -153,7 +166,7 @@
     <!--End of about us-->
 
     <!--agenda-->
-    <section id="agenda">
+    <section id="agenda" class="mt-5">
       <div class="container">
         <div class="row mt-2 px-5 py-5 flex-column flex-md-row">
           <div class="col">

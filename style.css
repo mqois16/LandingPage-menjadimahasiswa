@@ -4,30 +4,16 @@ body #navlink {
 }
 body #quotes {
   background-image: linear-gradient(#0a292e, #004d5f);
-  height: 74vh;
+  height: 85vh;
   color: white;
-  max-height: 70%;
 }
 
 body #quotes .container {
-  padding-top: 30vh;
+  padding-top: 35vh;
 }
 
-body #navlink {
-  background-color: #004d5f;
-  color: white !important;
-}
-body #navlink a {
-  background-color: #004d5f;
-  color: white !important;
-}
-body #navlink a:hover {
-  background-color: #004d5f;
-  color: gray;
-}
-#grad {
-  background-image: linear-gradient(#004d5f);
-  height: 2vh;
+nav a {
+  color: white;
 }
 
 .vektor {
