@@ -23,3 +23,24 @@ body #quotes .container {
 .vektor {
   width: 200px;
 }
+#footer a {
+  font-size: large;
+  font-weight: 600;
+  color: #0a292e;
+}
+#footer a:hover {
+  font-weight: 600;
+  color: #004d5f;
+}
+#logo {
+  background-color: lightgray;
+}
+#logo-m {
+  background-color: lightgray;
+}
+#logo img {
+  width: 260px;
+}
+#logo-m img {
+  width: 210px;
+}
